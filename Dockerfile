@@ -14,6 +14,7 @@ RUN pip2 install bigsuds
 RUN pip2 install boto
 RUN pip2 install botocore
 RUN pip2 install boto3
+RUN pip2 install paramiko
 RUN ansible --version
 
 #System clean-up
